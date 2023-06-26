@@ -1,0 +1,116 @@
+html, body {
+    padding: 0;
+    background: #1B1924;
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+img {
+    height: 90px;
+    width: 90px;
+}
+
+h1 {
+    color: white;
+    font-size: 25px;
+    font-family: Josefin Sans, sans-serif;
+    font-weight: 700;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 390px;
+    margin: 30px auto;
+}
+
+input, textarea {
+    border-radius: 8px;
+    background: #444059;
+    color: #8F8F8F;
+    font-size: 15px;
+    font-family: Inter, sans-serif;
+    border: 0;
+}
+
+input {
+    width: 154px; 
+    margin: 0 5px;
+    padding: 10px; 
+}
+
+#endorsement {
+    width: 317px;
+    height: 118px;
+    resize: none;
+    overflow: auto;
+    padding: 10px;
+}
+
+#secondary-inputs {
+    display: flex;
+    height: 40px;
+    margin: 10px 0;
+    justify-content: space-between;
+}
+
+button {
+    width: 317px;
+    height: 61px;
+    color: #04131C;
+    text-align: center;
+    font-size: 22px;
+    font-family: Josefin Sans;
+    font-weight: 700;
+    border-radius: 8px;
+    background: #28A9F1;
+    box-sizing: border-box;
+    border: 0;
+}
+
+h2 {
+    color: white;
+    font-size: 20px;
+    font-family: Josefin Sans;
+    margin-bottom: -8px;
+}
+
+.endorsement-item {
+    background: white;
+    width: 317px;
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+    box-sizing: border-box;
+    padding: 5px 12px; 
+}
+
+
+p {
+    color: #1B1924;
+    font-size: 14px;
+    font-family: Inter;
+}
+
+.endorsement-tofrom {
+    font-family: Inter;
+    font-weight: 700;
+}
+
+#endorsement-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.like-counter {
+    color: black;
+    font-size: 16px;
+    font-weight: 700;
+    user-select: none;
+}
